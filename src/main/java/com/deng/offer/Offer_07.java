@@ -7,6 +7,23 @@ package com.deng.offer;
  */
 public class Offer_07 {
     public static void main(String[] args) {
+        SolutionOffer07 solutionOffer07 = new SolutionOffer07();
+        int[] preorder = {3,9,20,15,7};
+        int[] inorder = {9,3,15,20,7};
+        SolutionOffer07.TreeNode treeNode = solutionOffer07.buildTree(preorder, inorder);
+    }
+}
 
+class SolutionOffer07{
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
+
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+
+        return null;
     }
 }
