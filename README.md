@@ -3,4 +3,12 @@
 
 这是我有关LeetCode上《剑指Offer》所有题目的刷题程序，起始于2020/10/6。希望能坚持下去。
 
-[剑指 Offer 03. 数组中重复的数字](src/main/java/com/deng/offer/Offer_03_java)
+[剑指 Offer 03. 数组中重复的数字](src/main/java/com/deng/offer/Offer_03.java)
+
+[剑指 Offer 04. 二维数组中的查找](src/main/java/com/deng/offer/Offer_04.java)
+
+[剑指 Offer 05. 替换空格](src/main/java/com/deng/offer/Offer_05.java)
+
+[剑指 Offer 06. 从尾到头打印链表](src/main/java/com/deng/offer/Offer_06.java)
+
+[剑指 Offer 07. 重建二叉树](src/main/java/com/deng/offer/Offer_07.java)
