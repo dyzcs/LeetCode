@@ -22,3 +22,5 @@
 [剑指 Offer 12. 矩阵中的路径](src/main/java/com/deng/offer/Offer_12.java)
 
 [剑指 Offer 13. 机器人的运动范围](src/main/java/com/deng/offer/Offer_13.java)
+
+[剑指 Offer 14- I. 剪绳子](src/main/java/com/deng/offer/Offer_14_1.java)
