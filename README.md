@@ -27,6 +27,8 @@
 
 [剑指 Offer 14- I. 剪绳子](src/main/java/com/deng/offer/Offer_14_1.java)
 
+[剑指 Offer 14- II. 剪绳子 II](src/main/java/com/deng/offer/Offer_14_2.java)
+
 ## LeetCode
 
 [416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
