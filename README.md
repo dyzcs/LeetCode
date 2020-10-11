@@ -29,6 +29,8 @@
 
 [剑指 Offer 14- II. 剪绳子 II](src/main/java/com/deng/offer/Offer_14_2.java)
 
+[剑指 Offer 15. 二进制中1的个数](src/main/java/com/deng/offer/Offer_15.java)
+
 ## LeetCode
 
 [416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
