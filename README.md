@@ -3,6 +3,8 @@
 
 这是我有关LeetCode上《剑指Offer》所有题目的刷题程序，起始于2020/10/6。希望能坚持下去。
 
+## 剑指 Offer
+
 [剑指 Offer 03. 数组中重复的数字](src/main/java/com/deng/offer/Offer_03.java)
 
 [剑指 Offer 04. 二维数组中的查找](src/main/java/com/deng/offer/Offer_04.java)
@@ -24,3 +26,7 @@
 [剑指 Offer 13. 机器人的运动范围](src/main/java/com/deng/offer/Offer_13.java)
 
 [剑指 Offer 14- I. 剪绳子](src/main/java/com/deng/offer/Offer_14_1.java)
+
+## LeetCode
+
+[416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
