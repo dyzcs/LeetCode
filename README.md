@@ -31,6 +31,8 @@
 
 [剑指 Offer 15. 二进制中1的个数](src/main/java/com/deng/offer/Offer_15.java)
 
+[剑指 Offer 16. 数值的整数次方](src/main/java/com/deng/offer/Offer_16.java)
+
 ## LeetCode
 
 [416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
