@@ -35,6 +35,8 @@
 
 [剑指 Offer 17. 数值的整数次方](src/main/java/com/deng/offer/Offer_17.java)
 
+[剑指 Offer 18. 删除链表的节点](src/main/java/com/deng/offer/Offer_18.java)
+
 ## LeetCode
 
 [416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
