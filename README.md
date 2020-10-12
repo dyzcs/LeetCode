@@ -36,3 +36,5 @@
 ## LeetCode
 
 [416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
+
+[530. 二叉搜索树的最小绝对差](src/main/java/com/deng/lc/LeetCode_530.java)
