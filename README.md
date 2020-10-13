@@ -39,7 +39,7 @@
 
 ## LeetCode
 
-[416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
+[24. 两两交换链表中的节点](src/main/java/com/deng/lc/LeetCode_24.java)
 
 [416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
 
