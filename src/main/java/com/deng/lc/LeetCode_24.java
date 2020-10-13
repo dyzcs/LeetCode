@@ -51,7 +51,7 @@ class SolutionLC24 {
         ListNode dummyHead = new ListNode(0);
         dummyHead.next = head;
         ListNode temp = dummyHead;
-        while (temp.next.next != null) {
+        while (temp.next != null && temp.next.next != null) {
             ListNode node1 = temp.next;
             ListNode node2 = temp.next.next;
             temp.next = node2;
