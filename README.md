@@ -41,6 +41,8 @@
 
 [剑指 Offer 20. 表示数值的字符串](src/main/java/com/deng/offer/Offer_20.java)
 
+[剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](src/main/java/com/deng/offer/Offer_21.java)
+
 ## LeetCode
 
 [24. 两两交换链表中的节点](src/main/java/com/deng/lc/LeetCode_24.java)
