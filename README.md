@@ -45,6 +45,8 @@
 
 [剑指 Offer 22. 链表中倒数第k个节点](src/main/java/com/deng/offer/Offer_22.java)
 
+[剑指 Offer 24. 反转链表](src/main/java/com/deng/offer/Offer_24.java)
+
 ## LeetCode
 
 [24. 两两交换链表中的节点](src/main/java/com/deng/lc/LeetCode_24.java)
