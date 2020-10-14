@@ -9,7 +9,7 @@ import java.util.List;
  *
  * @see <a href="https://leetcode-cn.com/problems/find-common-characters/">1002. 查找常用字符</a>
  */
-public class LeetCode1002 {
+public class LeetCode_1002 {
     public static void main(String[] args) {
         String[] arr1 = {"bella", "label", "roller"};
         String[] arr2 = {"cool", "lock", "cook"};
