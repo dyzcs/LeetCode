@@ -43,6 +43,8 @@
 
 [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](src/main/java/com/deng/offer/Offer_21.java)
 
+[剑指 Offer 22. 链表中倒数第k个节点](src/main/java/com/deng/offer/Offer_22.java)
+
 ## LeetCode
 
 [24. 两两交换链表中的节点](src/main/java/com/deng/lc/LeetCode_24.java)
