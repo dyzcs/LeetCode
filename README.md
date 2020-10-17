@@ -47,6 +47,16 @@
 
 [剑指 Offer 24. 反转链表](src/main/java/com/deng/offer/Offer_24.java)
 
+[剑指 Offer 25. 合并两个排序的链表](src/main/java/com/deng/offer/Offer_25.java)
+
+[剑指 Offer 26. 树的子结构](src/main/java/com/deng/offer/Offer_26.java)
+
+[剑指 Offer 27. 二叉树的镜像](src/main/java/com/deng/offer/Offer_27.java)
+
+[剑指 Offer 28. 对称的二叉树](src/main/java/com/deng/offer/Offer_28.java)
+
+[剑指 Offer 29. 顺时针打印矩阵](src/main/java/com/deng/offer/Offer_29.java)
+
 ## LeetCode
 
 [24. 两两交换链表中的节点](src/main/java/com/deng/lc/LeetCode_24.java)
