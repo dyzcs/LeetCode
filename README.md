@@ -57,6 +57,8 @@
 
 [剑指 Offer 29. 顺时针打印矩阵](src/main/java/com/deng/offer/Offer_29.java)
 
+[剑指 Offer 30. 包含min函数的栈](src/main/java/com/deng/offer/Offer_30.java)
+
 ## LeetCode
 
 [24. 两两交换链表中的节点](src/main/java/com/deng/lc/LeetCode_24.java)
