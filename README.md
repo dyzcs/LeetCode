@@ -59,6 +59,8 @@
 
 [剑指 Offer 30. 包含min函数的栈](src/main/java/com/deng/offer/Offer_30.java)
 
+[剑指 Offer 31. 栈的压入、弹出序列](src/main/java/com/deng/offer/Offer_31.java)
+
 ## LeetCode
 
 [24. 两两交换链表中的节点](src/main/java/com/deng/lc/LeetCode_24.java)
