@@ -65,8 +65,9 @@
 
 [剑指 Offer 32 - II. 从上到下打印二叉树 II](src/main/java/com/deng/offer/Offer_32_2.java)
 
-[
-剑指 Offer 32 - III. 从上到下打印二叉树 III ](src/main/java/com/deng/offer/Offer_32_3.java)
+[剑指 Offer 32 - III. 从上到下打印二叉树 III](src/main/java/com/deng/offer/Offer_32_3.java)
+
+[剑指 Offer 33](src/main/java/com/deng/offer/Offer_33.java)
 
 ## LeetCode
 
