@@ -4,6 +4,8 @@ import java.util.Stack;
 
 /**
  * Created by Administrator on 2020/10/20.
+ *
+ * @see <a href="https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/">剑指 Offer 33. 二叉搜索树的后序遍历序列</a>
  */
 public class Offer_33 {
     public static void main(String[] args) {
