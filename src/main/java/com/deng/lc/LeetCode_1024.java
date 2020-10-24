@@ -7,6 +7,10 @@ package com.deng.lc;
  */
 public class LeetCode_1024 {
     public static void main(String[] args) {
-        
+
     }
+}
+
+class SolutionLC1024 {
+    
 }
