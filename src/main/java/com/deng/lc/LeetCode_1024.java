@@ -21,15 +21,16 @@ public class LeetCode_1024 {
         int t4 = 5;
 
         SolutionLC1024 solutionLC1024 = new SolutionLC1024();
-        System.out.println(solutionLC1024.videoStitching(arr1, t1));
-        System.out.println(solutionLC1024.videoStitching(arr2, t2));
-        System.out.println(solutionLC1024.videoStitching(arr3, t3));
-        System.out.println(solutionLC1024.videoStitching(arr4, t4));
+        System.out.println(solutionLC1024.videoStitching1(arr1, t1));
+        System.out.println(solutionLC1024.videoStitching1(arr2, t2));
+        System.out.println(solutionLC1024.videoStitching1(arr3, t3));
+        System.out.println(solutionLC1024.videoStitching1(arr4, t4));
     }
 }
 
 class SolutionLC1024 {
-    public int videoStitching(int[][] clips, int T) {
+    // 动态规划
+    public int videoStitching1(int[][] clips, int T) {
         return 0;
     }
 }
