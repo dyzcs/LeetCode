@@ -49,6 +49,7 @@ class SolutionLC1024 {
 
     // 贪心
     public int videoStitching2(int[][] clips, int T) {
+        int[] maxn = new int[T];
         return 0;
     }
 }
