@@ -12,5 +12,7 @@ public class LeetCode_1024 {
 }
 
 class SolutionLC1024 {
-    
+    public int videoStitching(int[][] clips, int T) {
+        return 0;
+    }
 }
