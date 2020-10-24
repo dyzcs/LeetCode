@@ -23,14 +23,20 @@ public class LeetCode_1024 {
         SolutionLC1024 solutionLC1024 = new SolutionLC1024();
         System.out.println(solutionLC1024.videoStitching1(arr1, t1));
         System.out.println(solutionLC1024.videoStitching1(arr2, t2));
-        System.out.println(solutionLC1024.videoStitching1(arr3, t3));
-        System.out.println(solutionLC1024.videoStitching1(arr4, t4));
+        System.out.println(solutionLC1024.videoStitching2(arr3, t3));
+        System.out.println(solutionLC1024.videoStitching2(arr4, t4));
     }
 }
 
 class SolutionLC1024 {
     // 动态规划
     public int videoStitching1(int[][] clips, int T) {
+        return 0;
+    }
+
+
+    // 贪心
+    public int videoStitching2(int[][] clips, int T) {
         return 0;
     }
 }
