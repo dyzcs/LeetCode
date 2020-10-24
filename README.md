@@ -84,3 +84,5 @@
 [925. 长按键入](src/main/java/com/deng/lc/LeetCode_925.java)
 
 [1002. 查找常用字符](src/main/java/com/deng/lc/LeetCode_1002.java)
+
+[1024. 视频拼接](src/main/java/com/deng/lc/LeetCode_1024.java)
