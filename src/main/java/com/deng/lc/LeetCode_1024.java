@@ -1,5 +1,7 @@
 package com.deng.lc;
 
+import java.util.Arrays;
+
 /**
  * Created by Administrator on 2020/10/24.
  *
@@ -31,7 +33,17 @@ public class LeetCode_1024 {
 class SolutionLC1024 {
     // 动态规划
     public int videoStitching1(int[][] clips, int T) {
-        return 0;
+        int[] dp = new int[T + 1];
+        Arrays.fill(dp, Integer.MAX_VALUE - 1);
+        dp[0] = 0;
+        for (int i = 1; i <= T; i++) {
+            for (int[] clip : clips) {
+                if (clip[0] < i && i <= clip[1]) {
+                    dp[i] = Math.min(dp[i], dp[clip[0]] + 1);
+                }
+            }
+        }
+        return dp[T] == Integer.MAX_VALUE - 1 ? -1 : dp[T];
     }
 
 
