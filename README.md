@@ -81,6 +81,8 @@
 
 [530. 二叉搜索树的最小绝对差](src/main/java/com/deng/lc/LeetCode_530.java)
 
+[845. 数组中的最长山脉](src/main/java/com/deng/lc/LeetCode_845.java)
+
 [925. 长按键入](src/main/java/com/deng/lc/LeetCode_925.java)
 
 [1002. 查找常用字符](src/main/java/com/deng/lc/LeetCode_1002.java)
