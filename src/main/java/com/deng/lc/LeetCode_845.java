@@ -6,4 +6,11 @@ package com.deng.lc;
  * @see <a href="https://leetcode-cn.com/problems/longest-mountain-in-array/">845. 数组中的最长山脉</a>
  */
 public class LeetCode_845 {
+    public static void main(String[] args) {
+
+    }
+}
+
+class SolutionLC845 {
+    
 }
