@@ -1,6 +1,7 @@
 package com.deng.lc;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * Created by Administrator on 2020/10/26.
@@ -40,8 +41,25 @@ class SolutionLC1365 {
         return ret;
     }
 
+    // 快速排序
     public int[] smallerNumbersThanCurrent2(int[] nums) {
-        return null;
+        int n = nums.length;
+        int[][] data = new int[n][2];
+        for (int i = 0; i < n; i++) {
+            data[i][0] = nums[i];
+            data[i][1] = i;
+        }
+        Arrays.sort(data, Comparator.comparingInt(o -> o[0]));
+
+        int[] ret = new int[n];
+        int prev = -1;
+        for (int i = 0; i < n; i++) {
+            if (prev == -1 || data[i][0] != data[i - 1][0]) {
+                prev = i;
+            }
+            ret[data[i][1]] = prev;
+        }
+        return ret;
     }
 
     public int[] smallerNumbersThanCurrent3(int[] nums) {
