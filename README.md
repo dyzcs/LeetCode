@@ -90,3 +90,5 @@
 [1002. 查找常用字符](src/main/java/com/deng/lc/LeetCode_1002.java)
 
 [1024. 视频拼接](src/main/java/com/deng/lc/LeetCode_1024.java)
+
+[1365. 有多少小于当前数字的数字](src/main/java/com/deng/lc/LeetCode_1365.java)
