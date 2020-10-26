@@ -49,7 +49,15 @@ class SolutionLC1365 {
             data[i][0] = nums[i];
             data[i][1] = i;
         }
+//        for (int[] ints : data) {
+//            System.out.print(Arrays.toString(ints));
+//        }
         Arrays.sort(data, Comparator.comparingInt(o -> o[0]));
+//        System.out.println();
+//        for (int[] ints : data) {
+//            System.out.print(Arrays.toString(ints));
+//        }
+//        System.out.println();
 
         int[] ret = new int[n];
         int prev = -1;
@@ -62,7 +70,20 @@ class SolutionLC1365 {
         return ret;
     }
 
+    // 计数排序
     public int[] smallerNumbersThanCurrent3(int[] nums) {
-        return null;
+        int[] cnt = new int[101];
+        int n = nums.length;
+        for (int num : nums) {
+            cnt[num]++;
+        }
+        for (int i = 1; i <= 100; i++) {
+            cnt[i] += cnt[i - 1];
+        }
+        int[] ret = new int[n];
+        for (int i = 0; i < n; i++) {
+            ret[i] = nums[i] == 0 ? 0 : cnt[nums[i] - 1];
+        }
+        return ret;
     }
 }
