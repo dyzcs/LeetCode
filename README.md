@@ -1,7 +1,7 @@
 # LeetCode
  leetcode programming record
 
-这是我有关LeetCode上《剑指Offer》所有题目的刷题程序，起始于2020/10/6。希望能坚持下去。
+这是我有关LeetCode上题目的刷题记录。希望能坚持下去。
 
 ## 剑指 Offer
 
