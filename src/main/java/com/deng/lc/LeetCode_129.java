@@ -1,5 +1,8 @@
 package com.deng.lc;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Created by Administrator on 2020/10/29.
  *
@@ -19,7 +22,7 @@ public class LeetCode_129 {
         t2.right = t5;
 
         SolutionLC129 solutionLC129 = new SolutionLC129();
-        System.out.println(solutionLC129.sumNumbers1(t1));
+        System.out.println(solutionLC129.sumNumbers2(t1));
     }
 }
 
@@ -53,6 +56,31 @@ class SolutionLC129 {
 
     // 广度优先搜索
     public int sumNumbers2(TreeNode root) {
-        return dfs(root, 0);
+        if (root == null) {
+            return 0;
+        }
+        int sum = 0;
+        Queue<TreeNode> nodeQueue = new LinkedList<>();
+        Queue<Integer> numQueue = new LinkedList<>();
+        nodeQueue.offer(root);
+        numQueue.offer(root.val);
+        while (!nodeQueue.isEmpty()) {
+            TreeNode node = nodeQueue.poll();
+            Integer num = numQueue.poll();
+            TreeNode left = node.left, right = node.right;
+            if (left == null && right == null) {
+                sum += num;
+            } else {
+                if (left != null) {
+                    nodeQueue.offer(left);
+                    numQueue.offer(num * 10 + left.val);
+                }
+                if (right != null) {
+                    nodeQueue.offer(right);
+                    numQueue.offer(num * 10 + right.val);
+                }
+            }
+        }
+        return sum;
     }
 }
