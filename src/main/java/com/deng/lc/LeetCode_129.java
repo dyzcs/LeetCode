@@ -35,6 +35,10 @@ class SolutionLC129 {
     }
 
     public int sumNumbers(TreeNode root) {
+        return dfs(root, 0);
+    }
+
+    private int dfs(TreeNode root, int prevSum) {
         return 0;
     }
 }
