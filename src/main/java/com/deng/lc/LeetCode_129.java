@@ -19,7 +19,7 @@ public class LeetCode_129 {
         t2.right = t5;
 
         SolutionLC129 solutionLC129 = new SolutionLC129();
-        System.out.println(solutionLC129.sumNumbers(t1));
+        System.out.println(solutionLC129.sumNumbers1(t1));
     }
 }
 
@@ -34,7 +34,8 @@ class SolutionLC129 {
         }
     }
 
-    public int sumNumbers(TreeNode root) {
+    // 深度优先搜索
+    public int sumNumbers1(TreeNode root) {
         return dfs(root, 0);
     }
 
@@ -48,5 +49,10 @@ class SolutionLC129 {
         } else {
             return dfs(root.left, sum) + dfs(root.right, sum);
         }
+    }
+
+    // 广度优先搜索
+    public int sumNumbers2(TreeNode root) {
+        return dfs(root, 0);
     }
 }
