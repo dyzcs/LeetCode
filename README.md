@@ -75,6 +75,8 @@
 
 [24. 两两交换链表中的节点](src/main/java/com/deng/lc/LeetCode_24.java)
 
+[129. 求根到叶子节点数字之和](src/main/java/com/deng/lc/LeetCode_129.java)
+
 [234. 回文链表](src/main/java/com/deng/lc/LeetCode_234.java)
 
 [416. 分割等和子集](src/main/java/com/deng/lc/LeetCode_416.java)
