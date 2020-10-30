@@ -11,12 +11,14 @@ public class LeetCode_463 {
                 {1, 1, 1, 0},
                 {0, 1, 0, 0},
                 {1, 1, 0, 0}};
-        
+        SolutionLC463 solutionLC463 = new SolutionLC463();
+        System.out.println(solutionLC463.islandPerimeter(arr));
     }
 }
 
 class SolutionLC463 {
     public int islandPerimeter(int[][] grid) {
+        
         return 0;
     }
 }
