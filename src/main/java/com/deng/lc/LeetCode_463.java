@@ -12,7 +12,7 @@ public class LeetCode_463 {
                 {0, 1, 0, 0},
                 {1, 1, 0, 0}};
         SolutionLC463 solutionLC463 = new SolutionLC463();
-        System.out.println(solutionLC463.islandPerimeter(arr));
+        System.out.println(solutionLC463.islandPerimeter1(arr));
     }
 }
 
@@ -20,7 +20,7 @@ class SolutionLC463 {
     static int[] dx = {0, 1, 0, -1};
     static int[] dy = {1, 0, -1, 0};
 
-    public int islandPerimeter(int[][] grid) {
+    public int islandPerimeter1(int[][] grid) {
         int n = grid.length, m = grid[0].length;
         int ans = 0;
         for (int i = 0; i < n; i++) {
@@ -39,5 +39,23 @@ class SolutionLC463 {
             }
         }
         return ans;
+    }
+
+    public int islandPerimeter2(int[][] grid) {
+        int n = grid.length, m = grid[0].length;
+        int ans = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == 1) {
+                    ans += dfs(i, j, grid, n ,m);
+                }
+            }
+        }
+        return ans;
+    }
+
+    private int dfs(int i, int j, int[][] grid, int n, int m) {
+        return 0;
     }
 }
