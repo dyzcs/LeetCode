@@ -7,6 +7,8 @@
 
 [1. 二分查找](src/main/java/com/dyzcs/interview/search/BinarySearch.java)
 
+[2. 快排](src/main/java/com/dyzcs/interview/sort/QuickSort.java)
+
 ## 剑指 Offer
 
 [剑指 Offer 03. 数组中重复的数字](src/main/java/com/dyzcs/offer/Offer_03.java)
