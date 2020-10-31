@@ -79,6 +79,8 @@
 
 [234. 回文链表](src/main/java/com/dyzcs/lc/LeetCode_234.java)
 
+[381. O(1) 时间插入、删除和获取随机元素 - 允许重复](src/main/java/com/dyzcs/lc/LeetCode_381.java)
+
 [416. 分割等和子集](src/main/java/com/dyzcs/lc/LeetCode_416.java)
 
 [463. 岛屿的周长](src/main/java/com/dyzcs/lc/LeetCode_463.java)
