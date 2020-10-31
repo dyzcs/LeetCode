@@ -5,11 +5,17 @@ import java.util.*;
 /**
  * Created by Administrator on 2020/10/31.
  *
- * @see <a href=""></a>
+ * @see <a href="https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/">381. O(1) 时间插入、删除和获取随机元素 - 允许重复</a>
  */
 public class LeetCode_381 {
     public static void main(String[] args) {
-
+        RandomizedCollection obj = new RandomizedCollection();
+        boolean param_1 = obj.insert(1);
+        System.out.println(param_1);
+        boolean param_2 = obj.remove(2);
+        System.out.println(param_2);
+        int param_3 = obj.getRandom();
+        System.out.println(param_3);
     }
 }
 
