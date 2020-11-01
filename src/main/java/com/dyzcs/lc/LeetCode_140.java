@@ -4,6 +4,8 @@ import java.util.*;
 
 /**
  * Created by Administrator on 2020/11/1.
+ *
+ * @see <a href="https://leetcode-cn.com/problems/word-break-ii/">140. 单词拆分 II</a>
  */
 public class LeetCode_140 {
     public static void main(String[] args) {
@@ -21,7 +23,7 @@ public class LeetCode_140 {
         String s2 = "pineapplepenapple";
         String[] ss2 = {"apple", "pen", "applepen", "pine", "pineapple"};
         List<String> list2 = new ArrayList<>(Arrays.asList(ss2));
-        List<String> r2 = solutionLC140.wordBreak(s1, list2);
+        List<String> r2 = solutionLC140.wordBreak(s2, list2);
         for (String s : r2) {
             System.out.println(s);
         }
@@ -31,7 +33,7 @@ public class LeetCode_140 {
         String s3 = "catsandog";
         String[] ss3 = {"cats", "dog", "sand", "and", "cat"};
         List<String> list3 = new ArrayList<>(Arrays.asList(ss3));
-        List<String> r3 = solutionLC140.wordBreak(s1, list3);
+        List<String> r3 = solutionLC140.wordBreak(s3, list3);
         for (String s : r3) {
             System.out.println(s);
         }
