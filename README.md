@@ -9,6 +9,10 @@
 
 [2. 快排](src/main/java/com/dyzcs/interview/sort/QuickSort.java)
 
+## 程序员面试金典
+
+[面试题 01.01. 判定字符是否唯一](src/main/java/com/dyzcs/lcci/LCCI_0101.java)
+
 ## 剑指 Offer
 
 [剑指 Offer 03. 数组中重复的数字](src/main/java/com/dyzcs/lcof/Offer_03.java)
