@@ -111,6 +111,8 @@
 
 [925. 长按键入](src/main/java/com/dyzcs/lc/LeetCode_925.java)
 
+[941. 有效的山脉数组](src/main/java/com/dyzcs/lc/LeetCode_941.java)
+
 [1002. 查找常用字符](src/main/java/com/dyzcs/lc/LeetCode_1002.java)
 
 [1024. 视频拼接](src/main/java/com/dyzcs/lc/LeetCode_1024.java)
