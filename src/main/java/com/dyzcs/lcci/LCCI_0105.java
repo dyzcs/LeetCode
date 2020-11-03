@@ -2,6 +2,8 @@ package com.dyzcs.lcci;
 
 /**
  * Created by Administrator on 2020/11/3.
+ *
+ * @see <a href="https://leetcode-cn.com/problems/one-away-lcci/">面试题 01.05. 一次编辑</a>
  */
 public class LCCI_0105 {
     public static void main(String[] args) {
@@ -16,6 +18,23 @@ public class LCCI_0105 {
 
 class SolutionLCCI0105 {
     public boolean oneEditAway(String first, String second) {
-        return false;
+        if (first == null || second == null) {
+            return false;
+        }
+        int len1 = first.length();
+        int len2 = second.length();
+        if (Math.abs(len1 - len2) > 1) {
+            return false;
+        }
+        if (len2 > len1) {
+            return oneEditAway(second, first);
+        }
+
+        for (int i = 0; i < len2; i++) {
+            if (first.charAt(i) != second.charAt(i)) {
+                return first.substring(i + 1).equals(second.substring(len1 == len2 ? i + 1 : i));
+            }
+        }
+        return true;
     }
 }
