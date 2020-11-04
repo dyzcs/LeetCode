@@ -41,6 +41,8 @@
 
 [面试题 02.06. 回文链表](src/main/java/com/dyzcs/lcci/LCCI_0206.java)
 
+[面试题 02.07. 链表相交](src/main/java/com/dyzcs/lcci/LCCI_0207.java)
+
 ## 剑指 Offer
 
 [剑指 Offer 03. 数组中重复的数字](src/main/java/com/dyzcs/lcof/Offer_03.java)
