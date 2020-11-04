@@ -37,6 +37,8 @@
 
 [面试题 02.04. 分割链表](src/main/java/com/dyzcs/lcci/LCCI_0204.java)
 
+[面试题 02.05. 链表求和](src/main/java/com/dyzcs/lcci/LCCI_0205.java)
+
 ## 剑指 Offer
 
 [剑指 Offer 03. 数组中重复的数字](src/main/java/com/dyzcs/lcof/Offer_03.java)
