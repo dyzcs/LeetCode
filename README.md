@@ -31,6 +31,8 @@
 
 [面试题 02.01. 移除重复节点](src/main/java/com/dyzcs/lcci/LCCI_0201.java)
 
+[面试题 02.02. 返回倒数第 k 个节点](src/main/java/com/dyzcs/lcci/LCCI_0202.java)
+
 ## 剑指 Offer
 
 [剑指 Offer 03. 数组中重复的数字](src/main/java/com/dyzcs/lcof/Offer_03.java)
