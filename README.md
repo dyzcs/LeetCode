@@ -21,6 +21,8 @@
 
 [面试题 01.05. 一次编辑](src/main/java/com/dyzcs/lcci/LCCI_0105.java)
 
+[面试题 01.06. 字符串压缩](src/main/java/com/dyzcs/lcci/LCCI_0106.java)
+
 ## 剑指 Offer
 
 [剑指 Offer 03. 数组中重复的数字](src/main/java/com/dyzcs/lcof/Offer_03.java)
