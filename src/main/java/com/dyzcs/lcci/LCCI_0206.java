@@ -12,7 +12,7 @@ public class LCCI_0206 {
 class SolutionLCCI0206 {
     static class ListNode {
         int val;
-        Solution.ListNode next;
+        ListNode next;
 
         ListNode(int x) {
             val = x;
@@ -20,6 +20,11 @@ class SolutionLCCI0206 {
     }
 
     public boolean isPalindrome(ListNode head) {
+        ListNode fast = head, slow = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
         return false;
     }
 }

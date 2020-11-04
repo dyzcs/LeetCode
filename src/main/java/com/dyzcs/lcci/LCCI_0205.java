@@ -11,7 +11,7 @@ public class LCCI_0205 {
     }
 }
 
-class Solution {
+class SolutionLCCI0205 {
     static class ListNode {
         int val;
         ListNode next;
