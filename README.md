@@ -35,6 +35,8 @@
 
 [面试题 02.03. 删除中间节点](src/main/java/com/dyzcs/lcci/LCCI_0203.java)
 
+[面试题 02.04. 分割链表](src/main/java/com/dyzcs/lcci/LCCI_0204.java)
+
 ## 剑指 Offer
 
 [剑指 Offer 03. 数组中重复的数字](src/main/java/com/dyzcs/lcof/Offer_03.java)
