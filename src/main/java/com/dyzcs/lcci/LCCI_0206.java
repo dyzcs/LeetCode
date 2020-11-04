@@ -2,6 +2,8 @@ package com.dyzcs.lcci;
 
 /**
  * Created by Administrator on 2020/11/4.
+ *
+ * @see <a href="https://leetcode-cn.com/problems/palindrome-linked-list-lcci/">面试题 02.06. 回文链表</a>
  */
 public class LCCI_0206 {
     public static void main(String[] args) {
