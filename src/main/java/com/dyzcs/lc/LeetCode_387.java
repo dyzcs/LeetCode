@@ -2,21 +2,20 @@ package com.dyzcs.lc;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * Created by Administrator on 2020/11/5.
  */
-public class LeetCode_378 {
+public class LeetCode_387 {
     public static void main(String[] args) {
-        SolutionLC378 solutionLC378 = new SolutionLC378();
+        SolutionLC387 solutionLC387 = new SolutionLC387();
         String s1 = "leetcode", s2 = "loveleetcode";
-        System.out.println(solutionLC378.firstUniqChar(s1));
-        System.out.println(solutionLC378.firstUniqChar(s2));
+        System.out.println(solutionLC387.firstUniqChar(s1));
+        System.out.println(solutionLC387.firstUniqChar(s2));
     }
 }
 
-class SolutionLC378 {
+class SolutionLC387 {
     public int firstUniqChar(String s) {
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
