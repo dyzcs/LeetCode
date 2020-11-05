@@ -119,6 +119,8 @@
 
 [24. 两两交换链表中的节点](src/main/java/com/dyzcs/lc/LeetCode_24.java)
 
+[26. 删除排序数组中的重复项](src/main/java/com/dyzcs/lc/LeetCode_26.java)
+
 [129. 求根到叶子节点数字之和](src/main/java/com/dyzcs/lc/LeetCode_129.java)
 
 [140. 单词拆分 II](src/main/java/com/dyzcs/lc/LeetCode_140.java)
