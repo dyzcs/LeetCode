@@ -7,6 +7,9 @@ import java.util.List;
  * Created by Administrator on 2020/11/6.
  */
 public class LeetCode_1356 {
+    public static void main(String[] args) {
+        
+    }
 }
 
 class SolutionLC1356 {
