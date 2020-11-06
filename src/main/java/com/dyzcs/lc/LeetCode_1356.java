@@ -1,6 +1,7 @@
 package com.dyzcs.lc;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -8,7 +9,9 @@ import java.util.List;
  */
 public class LeetCode_1356 {
     public static void main(String[] args) {
-        
+        SolutionLC1356 solutionLC1356 = new SolutionLC1356();
+        int[] ints = solutionLC1356.sortByBits(new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8});
+        System.out.println(Arrays.toString(ints));
     }
 }
 
