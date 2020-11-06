@@ -155,4 +155,6 @@
 
 [1024. 视频拼接](src/main/java/com/dyzcs/lc/LeetCode_1024.java)
 
+[1356. 根据数字二进制下 1 的数目排序](src/main/java/com/dyzcs/lc/LeetCode_1356.java)
+
 [1365. 有多少小于当前数字的数字](src/main/java/com/dyzcs/lc/LeetCode_1365.java)
