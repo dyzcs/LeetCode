@@ -14,6 +14,10 @@ public class LeetCode_122 {
 
 class SolutionLC122 {
     public int maxProfit(int[] prices) {
-        return 0;
+        int ans = 0;
+        for (int i = 1; i < prices.length; i++) {
+            ans += Math.max(0, prices[i] - prices[i - 1]);
+        }
+        return ans;
     }
 }
