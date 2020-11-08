@@ -3,8 +3,6 @@
 
 这是我有关LeetCode和面试题目的刷题记录。希望能坚持下去。
 
-1024
-
 ## 面试
 
 [1. 二分查找](src/main/java/com/dyzcs/interview/search/BinarySearch.java)
